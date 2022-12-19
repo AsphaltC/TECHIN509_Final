@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css"/>
+
+<body>
+    <div class="Heading">
+        <h1>Input UserName</h1>
+    </div>
+
+    <form>
+
+        <fieldset>
+            <legend>Please enter player's username: </legend>
+            <p>
+                <label class="playerUsername" for="player1Name">Player 1:</label>
+                <input type="text" id="player1Name" name="player1Name" />
+            </p>
+        </fieldset>
+
+        <div>
+            <button class="playButton" type="submit">Start!</button>
+        </div>
+    </form>
+</body>

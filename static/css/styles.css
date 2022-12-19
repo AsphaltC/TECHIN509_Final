@@ -1,0 +1,36 @@
+/* BEGIN CONFIG index.html */
+.Heading {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: Indigo;
+}
+
+.Username {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: Indigo;
+}
+
+.ModeChoice {
+    font-family:Arial,Helvetica,sans-serif;
+    margin: auto;
+    width: 25%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: Indigo;
+}
+
+.playButton {
+    width: 25%;
+    background-color: Green;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}

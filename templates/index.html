@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css"/>
+
+<body>
+    <div class="Heading">
+        <h1>Welcome to Tic Tac Toe Game!</h1>
+    </div>
+
+    <form>
+        <fieldset>
+            <legend>
+                Select your game mode:
+            </legend>
+            <div>
+                <input type="radio" id="singleModeRadio" name="gameMode" value="SingleMode"/>
+                <label class="radioModeChoice" for="modeChoice1">SinglePlayer Mode</label>
+
+                <input type="radio" id="twoPlayersModeRadio" name="gameMode" value="TwoPlayersMode"/>
+                <label class="radioModeChoice" for="modeChoice2">MultiPlayer Mode</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <button class="playButton" type="submit">Next</button>
+        </div>
+    </form>
+</body>
